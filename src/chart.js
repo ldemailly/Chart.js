@@ -24,7 +24,7 @@ require('./core/core.scale')(Chart);
 require('./core/core.tooltip')(Chart);
 
 require('./scales/scale.linearbase')(Chart);
-//require('./scales/scale.category')(Chart);
+require('./scales/scale.category')(Chart);
 require('./scales/scale.linear')(Chart);
 require('./scales/scale.logarithmic')(Chart);
 //require('./scales/scale.radialLinear')(Chart);
@@ -32,7 +32,7 @@ require('./scales/scale.logarithmic')(Chart);
 
 // Controllers must be loaded after elements
 // See Chart.core.datasetController.dataElementType
-//require('./controllers/controller.bar')(Chart);
+require('./controllers/controller.bar')(Chart);
 //require('./controllers/controller.bubble')(Chart);
 //require('./controllers/controller.doughnut')(Chart);
 require('./controllers/controller.line')(Chart);
@@ -40,7 +40,7 @@ require('./controllers/controller.line')(Chart);
 //require('./controllers/controller.radar')(Chart);
 //require('./controllers/controller.scatter')(Chart);
 
-//require('./charts/Chart.Bar')(Chart);
+require('./charts/Chart.Bar')(Chart);
 //require('./charts/Chart.Bubble')(Chart);
 //require('./charts/Chart.Doughnut')(Chart);
 require('./charts/Chart.Line')(Chart);
